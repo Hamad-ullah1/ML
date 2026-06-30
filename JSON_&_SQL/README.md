@@ -1,4 +1,4 @@
-# Day 16 - Working with JSON & SQL
+Working with JSON & SQL
 
 This repository contains practice work of Machine Learning course. The focus of this session is learning how to work with data stored in **JSON files** and **SQL databases**, and how to load it into Python for data analysis and machine learning.
 
