@@ -1,55 +1,56 @@
-Encoding Categorical Data
+# Day 16 - Working with JSON & SQL
 
-This repository contains practice work of Machine Learning course. The focus of this session is learning how to convert categorical features into numerical values that can be used by machine learning algorithms.
+This repository contains practice work of Machine Learning course. The focus of this session is learning how to work with data stored in **JSON files** and **SQL databases**, and how to load it into Python for data analysis and machine learning.
 
 ## 📌 Topics Covered
 
-- Introduction to Categorical Data
-- Types of Categorical Variables
-  - Nominal
-  - Ordinal
-- Label Encoding
-- Ordinal Encoding
-- One-Hot Encoding
-- Dummy Variable Trap
-- Using Scikit-learn Encoders
-- Choosing the appropriate encoding technique
+- Introduction to JSON
+- Reading JSON files using Pandas
+- Loading JSON data from APIs
+- Introduction to SQL databases
+- Connecting Python to SQL databases
+- Executing SQL queries
+- Importing SQL data into Pandas DataFrames
+- Preparing external data sources for machine learning
 
 ## 🛠️ Technologies Used
 
 - Python
-- NumPy
 - Pandas
-- Scikit-learn
+- JSON
+- SQL
+- SQLite
 - Jupyter Notebook
 
 ## 📂 Project Structure
 
 ```
-│── Encoding_Categorical_Data.ipynb
-│── dataset.csv
+Day-16/
+│── JSON_&_SQL.ipynb
 └── README.md
 ```
 
 ## 📖 Learning Outcomes
 
-After completing this project, I learned:
+After completing this project, I learned how to:
 
-- The difference between nominal and ordinal categorical features.
-- When to use Ordinal Encoding and One-Hot Encoding.
-- How to implement encoding techniques using Scikit-learn.
-- How encoded features are used in machine learning models.
-- Common pitfalls when working with categorical data.
+- Read and process JSON data using Pandas.
+- Connect Python to SQL databases.
+- Execute SQL queries to retrieve specific data.
+- Load structured data into Pandas DataFrames.
+- Prepare data from different sources for machine learning workflows.
 
 ## 🚀 How to Run
 
 1. Clone this repository.
-2. Open the Jupyter Notebook.
-3. Install the required libraries if needed:
+
+2. Install the required libraries (if needed):
 
 ```bash
-pip install numpy pandas scikit-learn
+pip install pandas sqlalchemy
 ```
+
+3. Open the Jupyter Notebook.
 
 4. Run all notebook cells.
 
@@ -59,4 +60,4 @@ This project is based on concepts learned from the **CampusX Machine Learning** 
 
 ---
 
-⭐ This repository is part of my Machine Learning learning journey, where I practice each concept using Python and Scikit-learn.
+⭐ This repository is part of my Machine Learning learning journey, where I practice each concept using different datasets and hands-on implementations to strengthen my understanding.
